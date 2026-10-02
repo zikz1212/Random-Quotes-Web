@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/1200x/6c/11/f1/6c11f172bb9ed31be10c50799a0a0d86.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Poppins", Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+    padding: 50px 45px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.35),
+        inset 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+#quoteID {
+    margin: 0 auto 22px;
+    max-width: 520px;
+    color: white;
+    font-size: 21px;
+    line-height: 1.7;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+#authorID {
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+button {
+    padding: 13px 28px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
